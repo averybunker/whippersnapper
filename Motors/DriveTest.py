@@ -42,7 +42,7 @@ myMotor3.run(Adafruit_MotorHAT.RELEASE);
 myMotor4.run(Adafruit_MotorHAT.RELEASE);
 
 while (True):
-    print "Forward! "
+    print "Forward!"
     myMotor1.run(Adafruit_MotorHAT.FORWARD)
     myMotor2.run(Adafruit_MotorHAT.FORWARD)
     myMotor3.run(Adafruit_MotorHAT.FORWARD)
